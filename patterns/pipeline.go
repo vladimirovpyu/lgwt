@@ -20,9 +20,9 @@
 package main
 
 import (
-	t"
-	me"
-
+	"fmt"
+	"time"
+)
 
 func writer() <-chan int {
 	out := make(chan int)
